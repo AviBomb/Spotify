@@ -1,2 +1,3 @@
 # Spotify
 Generates and Embeds Random songs from multiple artists separated by commas into the web page also picks up certain details of the song and displays it onto the screen for the user to view 
+You will hav to go to the link https://developer.spotify.com/console/get-search-item/?q=tania%20bowra&type=artist&market=&limit=&offset= and generate an authentication token by logging into your own account and replace it into the scrip-complete.js replace the text after "headers: {Authorization:" this in three seperate places such that the user is able to be authenticated before connecting to the spotify api
